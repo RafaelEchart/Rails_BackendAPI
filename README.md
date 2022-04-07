@@ -1,37 +1,51 @@
-# curriculum-databases-projects-template
+# Rails Quotes API
+> This API will return a random quote from the database.
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+
+![screenshot](./app_screenshot.png)
 
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+To get a local copy up and running follow these simple example steps.
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+### Prerequisites
 
+- Ruby
+- Ruby on Rails 
+- PostgreSQL
+- Terminal
 
-## Authors
+### Setup
 
-👤 **Author1**
+git clone https://github.com/RafaelEchart/Rails_BackendAPI.git
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+### Install
 
-👤 **Author2**
+Run in the terminal to install the gems:
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+`bundle install`
+
+`rails db:migrate db:seed`
+
+### Usage
+
+To run the Rails server, in the terminal: 
+
+`rails s`
+
+## Author
+
+👤 **Rafael Echart**
+
+- GitHub: [@RafaelEchart](https://github.com/rafaelechart)
+- Twitter: [@RafaelEchart](https://twitter.com/rafaelechart)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -39,9 +53,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Ruby and Ruby on Rails Documentation
+- Microverse Guidelines
+- Rafael Echart
 
 ## 📝 License
 
