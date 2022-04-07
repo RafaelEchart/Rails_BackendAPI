@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-git clone https://github.com/RafaelEchart/Rails_BackendAPI.git
+git clone https://github.com/RafaelEchart/Rails_QuotesAPI.git
 
 ### Install
 
