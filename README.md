@@ -1,5 +1,6 @@
 # Rails Quotes API
 > This API will return a random quote from the database.
+> There is a [FrontEnd version](https://github.com/RafaelEchart/React_QuotesAPI) to use this API
 
 
 ![screenshot](./app_screenshot.png)
